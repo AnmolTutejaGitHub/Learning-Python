@@ -15,6 +15,12 @@ y=2.0
 z=bool(x==y) #returning True
 print(z)
 
+r=bool(1<2<3)
+print(r)
+
+w=bool(1<2>3)
+print(w)       #False as 1<2 but 2 is not greater than 3
+
 
 
 
