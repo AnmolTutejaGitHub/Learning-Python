@@ -16,3 +16,5 @@ def myfunc(a,b):
 
 print(myfunc(5,4))
 print(myfunc(2,4))
+
+#OR can use min,max functions too 
