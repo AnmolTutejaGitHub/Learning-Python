@@ -4,7 +4,7 @@ import os
 import webbrowser
 import speech_recognition as sr
 import wikipedia
-import openai
+#import openai
 import datetime
 
 
@@ -45,3 +45,6 @@ if __name__== '__main__':
 
      if "open facetime".lower() in query.lower():
          os.system(f"open /System/Application/FaceTime.app")
+
+     if "conscious" or "self aware" in query:
+         say("That's a difficult question. Can you prove that you are?” And I bet you cannot do so")
