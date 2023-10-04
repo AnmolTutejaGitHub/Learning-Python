@@ -2,14 +2,16 @@
 A = 0
 B = 1
 if n == 1:
-    print(a)
+    print(A)
 elif n == 2:
-    print(a)
-    print(b)
+    print(A)
+    print(B)
 else:
+    print(A)
+    print(B)
     for i in range(2, n):
         C = A+B
-        # A = B  # swapping like logic 
+        # A = B  # swapping like logic
         # B = C
-        A, B = B, C   #python specific
+        A, B = B, C  # python specific
         print(C)
