@@ -15,3 +15,14 @@ def ask_for_int():
             print("I will run at end")
 
 ask_for_int()
+
+# else lets you code sections that should run only when no exceptions are encountered in the try clause.
+try:
+       # Some Code.... 
+except:
+       # optional block
+       # Handling of exception (if required)
+else:
+       # execute if no exception
+finally:
+      # Some code .....(always executed)
