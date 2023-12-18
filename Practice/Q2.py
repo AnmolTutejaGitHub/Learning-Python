@@ -35,6 +35,7 @@ max = float("-inf")
 secondMax = float("-inf")
 for i in mylist:
     if(i > max):
+        secondmax=max
         max = i
     elif i > secondMax:
         secondMax = i
